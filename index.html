@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    
+  <nav id="desktop-nav">
+  <div class="logo">Joel Cherian Williams</div>
+  <div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#career">My Career</a></li> 
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#resume">Resume</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<nav id="hamburger-nav">
+  <div class="logo">Joel Williams</div>
+  <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+    <ul class="menu-links">
+      <li><a href="#about" onclick="toggleMenu()">About</a></li>
+      <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+      <li><a href="#career" onclick="toggleMenu()">My Career</a></li> 
+      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      <li><a href="#resume" onclick="toggleMenu()">Resume</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+    
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/Joel.jpg" alt="Joel profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Joel Cherian Williams</h1>
+        <p class="section__text__p2">AI Prompt Engineer | Quality Specialist | DevOps Enthusiast</p>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            style="cursor: pointer;"
+            onclick="window.open('https://www.linkedin.com/in/joel-williams-94093728b', '_blank')"
+          />
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="assets/profile-pic.png" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+              <h3>Experience</h3>
+              <p>1 year<br />AI Prompt Engineer<br />Test Engineer<br />Team Lead</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <p>B.Tech Computer Engineering</p>
+              <p>Specialization DevOps</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I’m Joel Williams, a multi-disciplinary technologist with deep expertise in AI prompt engineering, manual software testing, and team leadership. With a background rooted in science and a passion for innovation, I bring a unique blend of analytical thinking and creative problem-solving to everything I do. My professional journey has been shaped by hands-on execution and leading with empathy. I thrive in environments where I can bridge the gap between technical precision and user experience, guiding teams to deliver impactful, high-quality solutions. Whether it’s optimizing test strategies, crafting intelligent AI prompts, or steering a team toward successful delivery, I’m driven by curiosity and a relentless pursuit of excellence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          
+          <div class="details-container">
+            <h2 class="experience-sub-title">My Skills</h2>
+            <div class="article-container">
+              
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>MySQL</h3><p>Intermediate</p></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Jenkins</h3><p>Intermediate</p></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Excel</h3><p>Experienced</p></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Python</h3><p>Experienced</p></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Power Bi</h3><p>Intermediate</p></div></article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          
+          <div class="details-container">
+            <h2 class="experience-sub-title">My knowledge</h2>
+            <div class="article-container">
+              
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>GitHub</h3><p>Intermediate</p></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Ai Prompting</h3><p>Intermediate</p></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Project leadership</h3><p>Experienced</p></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Business Consulting</h3><p>Experienced</p></div></article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="career">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Career</h1>
+  <div class="career-timeline">
+    <div class="timeline-step">
+      <div class="timeline-content">
+        <h1><strong>NAFCEL</strong></h1>
+        <br>
+        <h3>Intern</h3>
+        <p>As an engineering intern at <strong>NAFCEL</strong>, I supported both technical operations and data-driven decision-making processes. My responsibilities included collecting and organizing production data, tracking machine performance metrics, and conducting efficiency analysis using Microsoft Excel. I developed and maintained Excel-based dashboards and reports to monitor downtime, maintenance schedules, and defect rates. Additionally, I collaborated with the engineering team to identify patterns in production data, contributing to process optimization and predictive maintenance efforts.</p>
+      </div>
+    </div>
+    <br>
+    <div class="timeline-line"></div>
+    <br>
+
+    <div class="timeline-content">
+      <h1><strong>Aggreko</strong></h1>
+      <br>
+      <h3>Intern</h3>
+      <p>During my internship at <strong>Aggreko</strong>, I assisted in the maintenance and operation of power generation and temperature control equipment. I supported engineers with site inspections, performance testing, and the documentation of technical data. I also contributed to optimizing equipment deployment strategies and gained exposure to energy efficiency practices and load management solutions.</p>
+    </div>
+    <br>
+    <div class="timeline-line"></div>
+    <br>
+
+    <div class="timeline-content">
+      <h1><strong>Xtransmartrix</strong></h1>
+      <br>
+      <h3>AI Prompt Engineer</h3>
+      <p>Started at <strong>Xtransmartrix</strong> as an AI Prompt Engineer, crafting intelligent and adaptive language prompts for various AI applications. Worked extensively with GUI-based AI platforms to design, test, and fine-tune conversational flows, ensuring seamless user interaction and high response accuracy. Collaborated closely with development and QA teams to iterate on prompt logic and improve system performance through prompt engineering best practices.</p>
+    </div>
+    <br>
+    <div class="timeline-line"></div>
+
+    <div class="timeline-step">
+      <div class="timeline-content">
+        <h3>Manual Tester</h3>
+        <p>Promoted to <strong>Manual Tester</strong>, where I led comprehensive manual testing efforts across web-based and GUI platforms. My primary responsibility involved identifying and documenting functional bugs, UI inconsistencies, and edge case issues through detailed exploratory and regression testing. I collaborated closely with the engineering team, effectively communicating test results and ensuring swift resolution of defects. My proactive involvement in sprint planning and QA reviews helped refine product quality and streamline user feedback loops, significantly enhancing the overall user experience.</p>
+      </div>
+    </div>
+    <br>
+    <div class="timeline-line"></div>
+
+    <div class="timeline-step">
+      <div class="timeline-content">
+        <h3>Team Lead</h3>
+        <p>Elevated to <strong>Team Lead</strong>, where I oversaw a cross-functional team of developers, testers, and AI engineers to drive high-impact project deliveries. I was responsible for assigning tasks based on skill and priority, and ensuring consistent progress through daily reviews. By leveraging Agile methodologies, I maintained workflow transparency, improved team collaboration, and delivered solutions aligned with client expectations and timelines. I played a key role in facilitating knowledge sharing, and fostering a culture of accountability and innovation throughout the development lifecycle.</p>
+      </div>
+    </div>
+  </div>
+</section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:joelcwilliam111@gmail.com">joelcwilliam111@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/call 1.jpg" alt="Phone icon" class="icon contact-icon" />
+          <p><a href="tel:+918431531720">8431531720</a></p>
+        </div>
+      </div>
+    </section>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#resume'" />
+    </section>
+
+    
+    <section id="resume">
+      <p class="section__text__p1">Interested in Working Together?</p>
+      <h1 class="title">Get My Resume</h1>
+      <div class="resume-info-upper-container">
+        <div class="contact-info-container">
+          <a href="./assets/JOEL CHERIAN WILLIAMS resume.pdf" class="btn btn-color-2" download>Resume</a>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#career">My Career</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">Resume</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Joel Williams. All Rights Reserved.</p>
+    </footer>
+
+   
+    <script src="script.js"></script>
+  </body>
+</html>
